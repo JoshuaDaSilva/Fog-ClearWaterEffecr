@@ -1,0 +1,103 @@
+﻿  CameraManager.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EventHandler.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  GamePlayManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+  LightManager.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\LightManager.cpp(20,50): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\LightManager.cpp(21,49): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  main.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(36,49): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(37,44): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(38,51): warning C4042: 'NormalsVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\main.cpp(121,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Cube.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(36,49): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(37,44): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(38,51): warning C4042: 'NormalsVB': has bad storage class
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  GameObject2D.cpp
+  GameObject3D.cpp
+  ObjModel.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\Objects\ObjModel.cpp(36,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Pumpkin.cpp
+  Wall.cpp
+  ShaderManager.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(36,49): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(37,44): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(38,51): warning C4042: 'NormalsVB': has bad storage class
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.cpp(38,63): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.cpp(44,56): warning C4042: 'uvVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.cpp(50,65): warning C4042: 'NormalsVB': has bad storage class
+  Utils.cpp
+  Generating Code...
+CameraManager.obj : error LNK2019: unresolved external symbol __imp___glewClearBufferfv referenced in function "public: void __cdecl CameraManager::SetupCamera(void)" (?SetupCamera@CameraManager@@QEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol __imp___glewClearBufferfv
+EventHandler.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "public: static bool __cdecl EventHandler::Update(void)" (?Update@EventHandler@@SA_NXZ)
+EventHandler.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: static bool __cdecl EventHandler::Update(void)" (?Update@EventHandler@@SA_NXZ)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl GamePlayManager::DisplaySplashScreen(struct SDL_Window *,struct SDL_Renderer *)" (?DisplaySplashScreen@GamePlayManager@@QEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl GamePlayManager::DisplaySplashScreen(struct SDL_Window *,struct SDL_Renderer *)" (?DisplaySplashScreen@GamePlayManager@@QEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "private: void __cdecl GamePlayManager::SwapSplash(struct SDL_Window *,struct SDL_Renderer *,unsigned int,class GameObject2D)" (?SwapSplash@GamePlayManager@@AEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@IVGameObject2D@@@Z)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "private: void __cdecl GamePlayManager::SwapSplash(struct SDL_Window *,struct SDL_Renderer *,unsigned int,class GameObject2D)" (?SwapSplash@GamePlayManager@@AEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@IVGameObject2D@@@Z)
+main.obj : error LNK2001: unresolved external symbol SDL_Delay
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "void __cdecl Shutdown(struct SDL_Window *)" (?Shutdown@@YAXPEAUSDL_Window@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+ShaderManager.obj : error LNK2001: unresolved external symbol SDL_GL_SetAttribute
+main.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function "void __cdecl Shutdown(struct SDL_Window *)" (?Shutdown@@YAXPEAUSDL_Window@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "void __cdecl Shutdown(struct SDL_Window *)" (?Shutdown@@YAXPEAUSDL_Window@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function SDL_main
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+Cube.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "public: void __cdecl Cube::LoadTexture(void)" (?LoadTexture@Cube@@QEAAXXZ)
+Cube.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "public: void __cdecl Cube::LoadTexture(void)" (?LoadTexture@Cube@@QEAAXXZ)
+GameObject2D.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl GameObject2D::Draw(struct SDL_Window *,struct SDL_Renderer *)" (?Draw@GameObject2D@@QEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)
+Wall.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "public: virtual void __cdecl Box::Draw(void)" (?Draw@Box@@UEAAXXZ)
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Wall.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "public: void __cdecl Box::Init(float)" (?Init@Box@@QEAAXM@Z)
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Wall.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "public: void __cdecl Box::Init(float)" (?Init@Box@@QEAAXM@Z)
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "private: void __cdecl ShaderManager::ProcessShaderFile(unsigned int,char *,unsigned int)" (?ProcessShaderFile@ShaderManager@@AEAAXIPEADI@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "private: void __cdecl ShaderManager::ProcessShaderFile(unsigned int,char *,unsigned int)" (?ProcessShaderFile@ShaderManager@@AEAAXIPEADI@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "public: void __cdecl ShaderManager::Startup(void)" (?Startup@ShaderManager@@QEAAXXZ)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "private: void __cdecl ShaderManager::ProcessShaderFile(unsigned int,char *,unsigned int)" (?ProcessShaderFile@ShaderManager@@AEAAXIPEADI@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: void __cdecl ShaderManager::Shutdown(void)" (?Shutdown@ShaderManager@@QEAAXXZ)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "private: void __cdecl ShaderManager::ProcessShaderFile(unsigned int,char *,unsigned int)" (?ProcessShaderFile@ShaderManager@@AEAAXIPEADI@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewDisableVertexAttribArray referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "private: void __cdecl ShaderManager::FindUniformHandles(void)" (?FindUniformHandles@ShaderManager@@AEAAXXZ)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "public: void __cdecl ShaderManager::LoadShaders(bool)" (?LoadShaders@ShaderManager@@QEAAX_N@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "private: void __cdecl ShaderManager::ProcessShaderFile(unsigned int,char *,unsigned int)" (?ProcessShaderFile@ShaderManager@@AEAAXIPEADI@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewUniform3fv referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewDrawArraysInstanced referenced in function "public: void __cdecl ShaderManager::Render(struct Material,struct Vec3)" (?Render@ShaderManager@@QEAAXUMaterial@@UVec3@@@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "public: void __cdecl ShaderManager::LoadShaders(bool)" (?LoadShaders@ShaderManager@@QEAAX_N@Z)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "public: void __cdecl ShaderManager::Shutdown(void)" (?Shutdown@ShaderManager@@QEAAXXZ)
+ShaderManager.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "public: void __cdecl ShaderManager::LoadShaders(bool)" (?LoadShaders@ShaderManager@@QEAAX_N@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\x64\Debug\SDLGame.exe : fatal error LNK1120: 50 unresolved externals

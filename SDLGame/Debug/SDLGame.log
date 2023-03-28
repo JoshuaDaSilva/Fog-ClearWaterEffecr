@@ -1,0 +1,42 @@
+﻿  CameraManager.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EventHandler.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  GamePlayManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+  LightManager.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\LightManager.cpp(20,50): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\LightManager.cpp(21,49): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  main.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(36,49): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(37,44): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(38,51): warning C4042: 'NormalsVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\main.cpp(121,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Cube.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(36,49): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(37,44): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(38,51): warning C4042: 'NormalsVB': has bad storage class
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  GameObject2D.cpp
+  GameObject3D.cpp
+  ObjModel.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\Objects\ObjModel.cpp(27,25): warning C4018: '<': signed/unsigned mismatch
+  Pumpkin.cpp
+  Wall.cpp
+  ShaderManager.cpp
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(36,49): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(37,44): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.h(38,51): warning C4042: 'NormalsVB': has bad storage class
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.cpp(38,63): warning C4042: 'CubeVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.cpp(44,56): warning C4042: 'uvVB': has bad storage class
+C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\SDLGame\Source\ShaderManager.cpp(50,65): warning C4042: 'NormalsVB': has bad storage class
+  Utils.cpp
+  Generating Code...
+  SDLGame.vcxproj -> C:\School\Second Year\Second Semester\GAME_404\Labs\Lab2\Debug\SDLGame.exe
